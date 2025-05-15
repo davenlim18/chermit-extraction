@@ -14,13 +14,10 @@ Uses GPT-based models to extract enzymatic reactions from scientific literature.
 Compares GPT-extracted reactions with entries from the BRENDA enzyme database, using InChI notation to standardize molecule comparisons and identify matches or discrepancies.
 
 `Atom Mapping, Molecular Fingerprints, and Generating Synthetic Invalid Reactions.ipynb`
-Generates synthetic invalid reactions via substrate-product permutation
-
-Computes molecular fingerprint similarity (MACCS, Morgan, Atom Pair)
-
-Performs atom-to-atom mapping using RXNMapper
-
-Extracts features used for machine learning-based reaction plausibility classification
+Generates synthetic invalid reactions via substrate-product permutation.
+Computes molecular fingerprint similarity (MACCS, Morgan, Atom Pair).
+Performs atom-to-atom mapping using RXNMapper.
+Extracts features used for machine learning-based reaction plausibility classification.
 
 `Decision Trees.ipynb`
 Benchmarks random forest models against logistic regression, SVM, and Naive Bayes for classifying valid vs. invalid reactions using the features generated above. Also includes testing the trained models on GPT-extracted reactions.
